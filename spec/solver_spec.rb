@@ -1,12 +1,8 @@
 require './solver'
 
 describe Solver do
-  it 'should return the correct answer' do
-    Solver.solve(100).should == 251_641_50
-  end
-
-  it 'should return the correct answer for 10' do
-    Solver.solve(10).should == 2640
+  it 'should reutrn the facotrial of the number 10' do
+    Solver.facotrial(10).should == 362_880_0
   end
 
   it 'should return the word hello in reverse order' do
